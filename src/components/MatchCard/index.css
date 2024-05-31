@@ -1,0 +1,64 @@
+.match-card-container {
+  background-color: #1e293b;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-container {
+    width: 30%;
+  }
+}
+
+.team-img {
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-img {
+    height: 80px;
+  }
+}
+
+.team-name {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.team-result {
+  font-family: 'Bree Serif';
+  font-size: 6px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.team-status {
+  font-family: 'Bree Serif';
+  font-size: 8px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 18px;
+  }
+  .team-result {
+    font-size: 12px;
+  }
+  .team-status {
+    font-size: 16px;
+  }
+}
+
+.win {
+  color: #18ed66;
+}
+
+.loss {
+  color: #e31a1a;
+}
